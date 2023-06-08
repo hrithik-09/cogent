@@ -11,7 +11,7 @@
     <section id="main">
         <img src="" alt="">
         <div class="container">
-            
+            <div></div>
             <h1 class="h-primary">Cogent Developers Network Registration Form</h1>
             <p>Register to Get Paid Projects Regularly & Get Regular Update of Job/Internship Openings in Cogent Group of Companies  </p>
         </div>
