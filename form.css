@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url('bg.jpg') repeat center/cover;
+    /* align-items: center; */
+    backdrop-filter: blur(10px);
+    height: 100%;
+}
+
+/* main section */
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 100vh;
+    margin-top: 40px;
+    /* justify-content: center  ; */
+    align-items: center;
+    /* background: url('bg.jpg') no-repeat center/cover; */
+}
+
+#main h1{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif ;
+}
+.container{
+    /* padding-bottom: 50px; */
+    padding: 50px 50px;
+    /* width:max-content; */
+}
+
+#main p{
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif ;
+    margin-top: 10px;
+}
+
+#main img{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.data{
+    margin: 0px;
+}
+.data p{
+    color: white!important;
+    background-color: #888;
+    float: left;
+    font-size: 12px!important;
+    padding: 2px;
+    border-radius: 5px;
+}
+.container-x{
+    margin-top: 20px;
+    width: 800px;
+    
+}
+.data{
+    width:100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 12px 24px 24px 24px;
+}
+.text{
+    line-height: 1.75rem !important;
+    width: 100%;
+    overflow: auto;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+    resize: none;
+    max-height: 400px;
+    font-family: "Nunito Sans", Sans-serif, serif;
+}
+.x-heading{
+    background-color: #634224;
+    padding: 10px 24px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Utility Classes */
+.h-primary{   
+    text-align: center;
+}
+
+
+.btn{
+    
+    text-decoration: none!important;
+    background-color: #634224;
+    color: rgb(249, 238, 238);
+    margin-top: 17px;
+    margin-left: 40%;
+    text-align: center;
+    padding: 12px 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+
